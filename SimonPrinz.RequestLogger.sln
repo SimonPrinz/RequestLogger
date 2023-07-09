@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonPrinz.RequestLogger", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonPrinz.RequestLogger.Tests", "tests\SimonPrinz.RequestLogger.Tests.csproj", "{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonPrinz.RequestLogger.Sample", "sample\SimonPrinz.RequestLogger.Sample.csproj", "{FCCE9425-5563-4439-BD40-C90788290A29}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCCE9425-5563-4439-BD40-C90788290A29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCCE9425-5563-4439-BD40-C90788290A29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCCE9425-5563-4439-BD40-C90788290A29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCCE9425-5563-4439-BD40-C90788290A29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
