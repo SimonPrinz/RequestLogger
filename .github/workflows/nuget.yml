@@ -1,0 +1,28 @@
+name: 🚀 .NET Build & Publish
+
+on:
+  release:
+    types: [ published ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔍 Checkout
+        uses: actions/checkout@v3
+      - name: 🔧 Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 5.0.x
+      - name: 🔍 Restore dependencies
+        run: dotnet restore
+      - name: 🏗️ Building Time
+        run: dotnet build -c Release --no-restore
+      - name: ✅ Testing Party
+        run: dotnet test -c Release --no-build --verbosity normal
+      - name: 📦 Artifacts Packaging
+        run: dotnet pack -c Release --no-build --verbosity normal
+      - name: 🔑 GitHub NuGet Addition
+        run: dotnet nuget add source --username $ --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/SimonPrinz/index.json"
+      - name: 🚀 Blast Off!
+        run: dotnet nuget push "src/bin/Release/*.nupkg" --source github --skip-duplicate

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonPrinz.RequestLogger", "src\SimonPrinz.RequestLogger.csproj", "{DF5B7317-C34D-4396-8F07-1B0E6A6E8CA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimonPrinz.RequestLogger.Tests", "tests\SimonPrinz.RequestLogger.Tests.csproj", "{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF5B7317-C34D-4396-8F07-1B0E6A6E8CA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF5B7317-C34D-4396-8F07-1B0E6A6E8CA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF5B7317-C34D-4396-8F07-1B0E6A6E8CA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF5B7317-C34D-4396-8F07-1B0E6A6E8CA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB06E239-2A4F-4E17-B808-6003DEE8DAC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
